@@ -4,7 +4,7 @@ Gympass like app.
 
 ## RFs (Functional Requirements)
 
-- [] Must be able to register;
+- [x] Must be able to register;
 - [] Must be able to authenticate;
 - [] Must be able to retrieve the logged-in user's profile;
 - [] Must be able to retrieve the number of check-ins made by the logged-in user;
@@ -17,7 +17,7 @@ Gympass like app.
 
 ## RNs (Business Rules)
 
-- [] Users cannot register with a duplicate email;
+- [x] Users cannot register with a duplicate email;
 - [] Users cannot check in more than once on the same day;
 - [] Users cannot check in if they are not within 100 meters of the gym;
 - [] Check-ins can only be validated up to 20 minutes after being created;
@@ -26,7 +26,7 @@ Gympass like app.
 
 ## RNFs (Non-Functional Requirements)
 
-- [] User passwords must be encrypted;
+- [x] User passwords must be encrypted;
 - [] Application data must be stored in a PostgreSQL database;
 - [] All data lists must be paginated with 20 items per page;
 - [] The user must be identified by a JWT;
