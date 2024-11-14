@@ -5,7 +5,7 @@ Gympass like app.
 ## RFs (Functional Requirements)
 
 - [x] Must be able to register;
-- [] Must be able to authenticate;
+- [x] Must be able to authenticate;
 - [] Must be able to retrieve the logged-in user's profile;
 - [] Must be able to retrieve the number of check-ins made by the logged-in user;
 - [] Must be able to retrieve the user's check-in history;
@@ -27,6 +27,6 @@ Gympass like app.
 ## RNFs (Non-Functional Requirements)
 
 - [x] User passwords must be encrypted;
-- [] Application data must be stored in a PostgreSQL database;
+- [x] Application data must be stored in a PostgreSQL database;
 - [] All data lists must be paginated with 20 items per page;
 - [] The user must be identified by a JWT;
