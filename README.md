@@ -6,12 +6,12 @@ Gympass like app.
 
 - [x] Must be able to register;
 - [x] Must be able to authenticate;
-- [] Must be able to retrieve the logged-in user's profile;
+- [x] Must be able to retrieve the logged-in user's profile;
 - [] Must be able to retrieve the number of check-ins made by the logged-in user;
 - [] Must be able to retrieve the user's check-in history;
 - [] Must be able to search for nearby gyms;
 - [] Must be able to search for gyms by name;
-- [] Must be able to check in at a gym;
+- [x] Must be able to check in at a gym;
 - [] Must be able to validate a user's check-in;
 - [] Must be able to register a gym;
 
