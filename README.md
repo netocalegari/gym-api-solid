@@ -7,13 +7,13 @@ Gympass like app.
 - [x] Must be able to register;
 - [x] Must be able to authenticate;
 - [x] Must be able to retrieve the logged-in user's profile;
-- [] Must be able to retrieve the number of check-ins made by the logged-in user;
-- [] Must be able to retrieve the user's check-in history;
+- [x] Must be able to retrieve the number of check-ins made by the logged-in user;
+- [x] Must be able to retrieve the user's check-in history;
 - [] Must be able to search for nearby gyms;
 - [] Must be able to search for gyms by name;
 - [x] Must be able to check in at a gym;
 - [] Must be able to validate a user's check-in;
-- [] Must be able to register a gym;
+- [x] Must be able to register a gym;
 
 ## RNs (Business Rules)
 
@@ -28,5 +28,5 @@ Gympass like app.
 
 - [x] User passwords must be encrypted;
 - [x] Application data must be stored in a PostgreSQL database;
-- [] All data lists must be paginated with 20 items per page;
+- [x] All data lists must be paginated with 20 items per page;
 - [] The user must be identified by a JWT;
