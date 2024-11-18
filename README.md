@@ -12,7 +12,7 @@ Gympass like app.
 - [x] Must be able to search for nearby gyms (up to 10km);
 - [x] Must be able to search for gyms by name;
 - [x] Must be able to check in at a gym;
-- [] Must be able to validate a user's check-in;
+- [x] Must be able to validate a user's check-in;
 - [x] Must be able to register a gym;
 
 ## RNs (Business Rules)

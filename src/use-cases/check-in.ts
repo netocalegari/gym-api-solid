@@ -5,6 +5,7 @@ import { ResourceNotFoundError } from "./errors/resource-not-found-error";
 import { getDistanceBetweenCoordinates } from "@/utils/get-distance-between-coordinates";
 import { MaxDistanceError } from "@/use-cases/errors/max-distance-error";
 import { MaxNumberOfCheckInsError } from "@/use-cases/errors/max-number-of-check-ins-error";
+
 interface CheckInUseCaseRequest {
   userId: string;
   gymId: string;
