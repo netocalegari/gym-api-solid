@@ -1,12 +1,7 @@
-import { hash } from "bcryptjs";
 import { FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
 
-import { prisma } from "@/lib/prisma";
-import { PrismaUsersRepository } from "@/repositories/prisma/prisma-users-repository";
-import { UserAlreadyExists } from "@/use-cases/errors/user-already-exists";
 import { makeCreateGymUseCase } from "@/use-cases/factories/make-create-gym-use-case";
-import { makeRegisterUseCase } from "@/use-cases/factories/make-register-use-case";
 
 export async function create(req: FastifyRequest, res: FastifyReply) {
   const createGymBodySchema = z.object({
