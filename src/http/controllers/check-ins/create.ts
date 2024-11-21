@@ -13,7 +13,7 @@ export async function create(req: FastifyRequest, res: FastifyReply) {
     longitude: z.number().refine((value) => Math.abs(value) <= 180),
   });
 
-  const { gymId } = createCheckInParamsSchema.parse(req.body);
+  const { gymId } = createCheckInParamsSchema.parse(req.params);
   const { latitude, longitude } = createCheckInBodySchema.parse(req.body);
 
   const createGymUseCase = makeCheckInUseCase();
